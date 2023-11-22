@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>UniKids</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body class="container">
+
+  <header>
+    <div class="topo">
+      <img src="UniKids 02.png" alt="Logotipo">
+
+      <div class="menu">
+        <a href="#">Início</a>
+        <a href="#">Quem Somos</a>
+        <a href="#">Consultórios</a>
+        <a href="#">Aniversários e Eventos</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="pagina-inicial">
+      <h2>Bem-vindos à UniKids!</h2>
+      <p>A UniKids é uma escola infantil que oferece um ambiente divertido e seguro para as crianças aprenderem e
+        crescerem.</p>
+      <img src="missao_visao.png" alt="Imagem de crianças brincando">
+    </section>
+
+    <section class="noticias-e-galeria">
+      <h2>Últimas Notícias</h2>
+
+      <ul class="noticias">
+        <li>
+          <a href="#">Encontro entre professores e alunos</a>
+          <img src="img1.jpg" alt="encontro entre professores e alunos">
+          <p>Os professores da UniKids se reuniram com os alunos para discutir os planos para o ano letivo.</p>
+        </li>
+        <li>
+          <a href="#">O Melhor Hallowen De Todos os Tempos</a>
+          <img src="hallowen.jpg" alt="Hallowen">
+          <p>Educação Infantil comemora Halloween com atividades divertidas</p>
+        </li>
+        <li>
+          <a href="#">Aluna Lança Livro</a>
+          <img src="Aluna_Lança_Livro.jpg" alt="aluna Lança Livro">
+          <p>Aluna do Master lança livro que trata sobre racismo e direitos iguais</p>
+        </li>
+      </ul>
+    </section>
+
+
+    <section class="galeria">
+      <h3>Galeria de imagens</h3>
+      <ul class="imagens">
+        <li><img src="imagem-galeria-1.jpg" alt="Imagem da galeria 1"></li>
+        <li><img src="imagem-galeria-2.jpg" alt="Imagem da galeria 2"></li>
+        <li><img src="imagem-galeria-3.jpg" alt="Imagem da galeria 3"></li>
+      </ul>
+    </section>
+    </section>
+
+    <section class="formulario">
+      <h2>Contato</h2>
+      <form action="enviar-mensagem.php" method="post">
+        <input type="text" name="nome" placeholder="Nome">
+        <input type="email" name="email" placeholder="E-mail">
+        <input type="text" name="assunto" placeholder="Assunto">
+        <textarea name="mensagem" placeholder="Mensagem"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright © 2023 UniKids</p>
+    <button type="button" onclick="mostrarDesenvolvedores()">Devs</button>
+  </footer>
+
+</body>
+
+</html>
